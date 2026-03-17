@@ -109,7 +109,7 @@ The project includes mechanisms to ensure data reliability:
 
 ## How to Run the Project
 
-1. Install Microsoft SQL Server
+1. Install Microsoft SQL Server (SQL Server container runs in linux/amd64 emulation on Apple Silicon)
 2. Open SQL Server Management Studio (SSMS)
 3. Create a new database
 4. Execute SQL scripts in the following order:
