@@ -73,7 +73,7 @@ BEGIN
     PRINT 'Dropped silver.erp_loc_a101';
 END
 CREATE TABLE silver.erp_loc_a101 (
-	cid INT,
+	cid NVARCHAR(50),
 	cntry NVARCHAR(50),
 	dwh_create_date DATETIME2 DEFAULT GETDATE()
 )
