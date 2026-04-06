@@ -1,3 +1,17 @@
+/*
+=======================
+DDL Script: Create Gold View Sales
+=======================
+*/
+
+-- ===================
+-- Create: gold.fact_sales
+-- ===================
+
+IF OBJECT_ID('gold_fact_sales', 'V') IS NOT NULL
+	DROP VIEW gold_fact_sales;
+GO
+
 -- sales view
 USE DW;
 
