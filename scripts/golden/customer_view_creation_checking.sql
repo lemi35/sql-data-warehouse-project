@@ -1,3 +1,17 @@
+/*
+=======================
+DDL Script: Create Gold View Customers
+=======================
+*/
+
+-- ===================
+-- Create dimention: gold.dim_customers
+-- ===================
+
+IF OBJECT_ID('gold_dim_customers', 'V') IS NOT NULL
+	DROP VIEW gold_dim_customers;
+GO
+
 USE DW;
 EXECUTE silver.load_silver;
 
