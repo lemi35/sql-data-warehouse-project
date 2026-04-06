@@ -1,3 +1,17 @@
+/*
+=======================
+DDL Script: Create Gold View Products
+=======================
+*/
+
+-- ===================
+-- Create dimention: gold.dim_products
+-- ===================
+
+IF OBJECT_ID('gold_dim_products', 'V') IS NOT NULL
+	DROP VIEW gold_dim_products;
+GO
+
 USE DW;
 
 -- joining product table (i have an error in naming columns, so  use prd_key instead of cat_id)
